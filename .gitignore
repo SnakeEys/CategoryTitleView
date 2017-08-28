@@ -5,9 +5,6 @@
 # Files for the ART/Dalvik VM
 *.dex
 
-# Java class files
-*.class
-
 # Generated files
 bin/
 gen/
@@ -34,6 +31,7 @@ captures/
 
 # Intellij
 *.iml
+.idea/
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
@@ -53,3 +51,9 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# Scripts
+*.bat
+
+#Other
+gradlew
