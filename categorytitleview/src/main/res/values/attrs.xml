@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="startText" format="string" />
+    <attr name="endText" format="string" />
+    <attr name="startTextSize" format="dimension" />
+    <attr name="endTextSize" format="dimension" />
+    <attr name="startTextColor" format="color" />
+    <attr name="endTextColor" format="color" />
+    <attr name="subText" format="string" />
+    <attr name="subTextColor" format="color" />
+    <attr name="subTextSize" format="dimension" />
+
+    <attr name="startIcon" format="reference" />
+    <attr name="endIcon" format="reference" />
+    <attr name="startMargin" format="dimension" />
+    <attr name="endMargin" format="dimension" />
+
+
+
+    <declare-styleable name="CategoryTitleView">
+        <attr name="startText" />
+        <attr name="endText" />
+        <attr name="startTextSize" />
+        <attr name="endTextSize" />
+        <attr name="startTextColor" />
+        <attr name="endTextColor" />
+        <attr name="startIcon" />
+        <attr name="endIcon" />
+        <attr name="subText" />
+        <attr name="subTextColor" />
+        <attr name="subTextSize" />
+        <attr name="startMargin" />
+        <attr name="endMargin" />
+    </declare-styleable>
+
+
+</resources>
