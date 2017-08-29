@@ -97,6 +97,8 @@ class CategoryTitleView @JvmOverloads constructor(context: Context, attrs: Attri
         endText.gravity = Gravity.END
         p2.rightMargin = endMargin
         addView(endText, p2)
+
+        /*end icon*/
         addView(endIcon, p)
 
         typedArray.recycle()
@@ -128,6 +130,9 @@ class CategoryTitleView @JvmOverloads constructor(context: Context, attrs: Attri
     }
 
 
+    fun getStartIcon() = startIcon
+
+    fun getEndIcon() = endIcon
 
     fun getStartText() = startText.text.toString()
 
